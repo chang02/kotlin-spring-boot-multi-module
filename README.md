@@ -1,6 +1,6 @@
-# Kotlin + Spring 멀티 모듈 프로젝트
+# Kotlin + Spring Boot multi module project
 
-## 환경
+## environment
 - Spring Boot 3.2.5
 - Kotlin 1.9.24
 - JVM 21
