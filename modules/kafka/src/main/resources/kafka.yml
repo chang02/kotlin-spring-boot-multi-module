@@ -1,0 +1,30 @@
+spring.application.name: api-server
+spring.profiles.active: local
+
+spring:
+  kafka:
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+---
+spring.config.activate.on-profile: local
+spring:
+  kafka:
+    bootstrap-servers:
+      - localhost:9091
+      - localhost:9092
+
+---
+spring.config.activate.on-profile: local-dev
+
+
+---
+spring.config.activate.on-profile: dev
+
+
+---
+spring.config.activate.on-profile: staging
+
+
+---
+spring.config.activate.on-profile: live

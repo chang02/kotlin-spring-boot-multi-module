@@ -1,0 +1,32 @@
+spring.application.name: api-server
+spring.profiles.active: local
+
+spring:
+  threads:
+    virtual:
+      enabled: true # virtual thread 사용 여부
+
+  config:
+    import:
+      - logging.yml
+      - jpa.yml
+      - clients.yml
+      - redis.yml
+---
+spring.config.activate.on-profile: local
+
+
+---
+spring.config.activate.on-profile: local-dev
+
+
+---
+spring.config.activate.on-profile: dev
+
+
+---
+spring.config.activate.on-profile: staging
+
+
+---
+spring.config.activate.on-profile: live
