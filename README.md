@@ -1,4 +1,4 @@
-# Kotlin + Spring Boot multi module project
+# Kotlin Spring Boot Multi Module Project
 
 ## environment
 - Spring Boot 3.2.5
@@ -12,7 +12,6 @@
 ## modules
 - clients
 - domain
-- jpa
 - kafka
 - redis
 - support
