@@ -9,9 +9,10 @@ spring:
   config:
     import:
       - logging.yml
-      - jpa.yml
+      - domain.yml
       - clients.yml
       - redis.yml
+      - kafka.yml
 ---
 spring.config.activate.on-profile: local
 

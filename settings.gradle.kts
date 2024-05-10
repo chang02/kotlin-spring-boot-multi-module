@@ -5,7 +5,6 @@ include(
     "apps:worker",
     "modules:clients",
     "modules:domain",
-    "modules:jpa",
     "modules:kafka",
     "modules:redis",
     "modules:support:logging",

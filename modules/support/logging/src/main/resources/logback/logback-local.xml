@@ -12,7 +12,7 @@
     </appender>
 
     <logger name="org.springframework" level="WARN"/>
-    <logger name="com.pang.skeleton" level="DEBUG"/>
+    <logger name="com.example.sample" level="DEBUG"/>
 
     <root level="INFO">
         <appender-ref ref="STDOUT"/>
